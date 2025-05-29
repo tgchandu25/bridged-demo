@@ -1,0 +1,45 @@
+{
+  "test_cases": [
+    {
+      "query": "Show me articles by Jane Doe from May 2025 about IPL",
+      "filter": {
+        "author": "Jane Doe",
+        "published_year": {
+          "$eq": 2025
+        },
+        "published_month": {
+          "$eq": 5
+        },
+        "tags": {
+          "$in": [
+            "IPL"
+          ]
+        }
+      },
+      "results": [
+        {
+          "score": 0.827,
+          "title": "IPL 2025: Ruthless MI top table...",
+          "author": "Jane Doe",
+          "tags": [
+            "#IPL2025",
+            "#MumbaiIndians",
+            "#RajasthanRoyals"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "Anything by John Smith on cricket injuries?",
+      "filter": {
+        "author": "John Smith",
+        "tags": {
+          "$in": [
+            "cricket injuries"
+          ]
+        }
+      },
+      "results": []
+    }
+  ]
+}
