@@ -1,4 +1,4 @@
-# Bridged AI Engineer Project
+# AI Engineer Project
 
 This project is a production-ready FastAPI application that takes a **natural language query**, generates a **Pinecone metadata filter using OpenAI**, performs **vector search**, and returns the most relevant articles.
 
@@ -15,6 +15,9 @@ This project is a production-ready FastAPI application that takes a **natural la
 ---
 ---
 
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -24,11 +27,16 @@ bridged-demo/
 │   ├── main.py               ← FastAPI app
 │   └── utils.py              ← Filter + search logic
 │
-├── requirements.txt          ← All dependencies
-├── Dockerfile                ← For containerization
-├── README.md                 ← Setup + architecture + how to run
-├── sample_data.csv           ← dataset
-└── .env.example              ← Template for API keys
+├── requirements.txt          ← Python dependencies
+├── Dockerfile                ← Docker container setup
+├── README.md                 ← Project overview and usage instructions
+├── sample_data.csv           ← Dataset
+├── .env.example              ← Template for setting API keys
+│
+├── Project_Documentation.pdf     ← Full architecture + implementation report
+├── agent_prototype.ipynb         ← Jupyter version of the agent logic
+├── final_response.json           ← Example output from search API
+└── sample_test_cases.json        ← Sample queries + filters + results
 ```
 
 
