@@ -24,14 +24,14 @@ This project is a production-ready FastAPI application that takes a **natural la
 bridged-demo/
 │
 ├── app/
-│   ├── main.py               ← FastAPI app
-│   └── utils.py              ← Filter + search logic
+│   ├── main.py                   ← FastAPI app
+│   └── utils.py                  ← Filter + search logic
 │
-├── requirements.txt          ← Python dependencies
-├── Dockerfile                ← Docker container setup
-├── README.md                 ← Project overview and usage instructions
-├── sample_data.csv           ← Dataset
-├── .env.example              ← Template for setting API keys
+├── requirements.txt              ← Python dependencies
+├── Dockerfile                    ← Docker container setup
+├── README.md                     ← Project overview and usage instructions
+├── sample_data.csv               ← Dataset
+├── .env.example                  ← Template for setting API keys
 │
 ├── Project_Documentation.pdf     ← Full architecture + implementation report
 ├── agent_prototype.ipynb         ← Jupyter version of the agent logic
